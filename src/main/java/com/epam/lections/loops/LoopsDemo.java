@@ -5,4 +5,7 @@ package com.epam.lections.loops;
     - several vars for
  */
 public class LoopsDemo {
+    public static void main(String[] args) {
+        System.out.println("");
+    }
 }
