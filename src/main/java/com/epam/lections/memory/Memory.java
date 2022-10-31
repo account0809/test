@@ -5,4 +5,12 @@ package com.epam.lections.memory;
     - Errors SO & OOfM
  */
 public class Memory {
+
+    public static void main(String[] args) {
+        outOfMemory();
+    }
+
+    public static void outOfMemory() {
+        Float[] array = new Float[10000 * 1000000];
+    }
 }
