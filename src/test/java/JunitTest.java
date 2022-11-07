@@ -30,7 +30,7 @@ public class JunitTest {
     static Stream<Arguments> numberProvider() {
         return Stream.of(
                 arguments(1, 2, 3),
-                arguments(15, 10, 30),
+                arguments(15, 10, 25),
                 arguments(5, 21, 26)
         );
     }
